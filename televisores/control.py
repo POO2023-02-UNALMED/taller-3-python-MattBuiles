@@ -12,6 +12,6 @@ class Control:
 
   def enlazar(self,tele):
     self.tv=tele
-    tele.control=self
+    #tele.control=self
   def getTv(self): return self.tv
   def setTv(self,value): self.tv=value
